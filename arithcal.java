@@ -10,8 +10,9 @@ public class arithcal {
 	      
 	      Scanner sc = new Scanner(System.in);
 	      
-	      System.out.print("\nEnter any Two Number: ");
+	      System.out.print("\nEnter any First Number: ");
 	      a = sc.nextFloat();
+	      System.out.print("\nEnter any second Number: ");
 	      b = sc.nextFloat();
 	      
 	      System.out.println("1. Addition");
