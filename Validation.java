@@ -9,11 +9,11 @@ public class Validation {
     
 	static String email;
 	
-	void validation(String email) {
+	void Validation(String email) {
 		this.email=email;
 	  }
 	
-	public void isvalid(boolean email) {
+	public void Isvalid(boolean email) {
 		if(email) {
 		     System.out.println("User Authenticated");
 	    }
@@ -42,10 +42,10 @@ public class Validation {
 		
 		
 		System.out.println("Enter the email id : ");
-		obj.validation(sc.next());
+		obj.Validation(sc.next());
 		
 		boolean b = a.contains(email);
-		obj.isvalid(b);
+		obj.Isvalid(b);
 		
 	}
 }
