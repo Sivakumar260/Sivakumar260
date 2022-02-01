@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Validation {
     
-	String email;
+	static String email;
 	
 	void validation(String email) {
 		this.email=email;
@@ -42,7 +42,7 @@ public class Validation {
 		
 		
 		System.out.println("Enter the email id : ");
-		String email = sc.next();
+		obj.validation(sc.next());
 		
 		boolean b = a.contains(email);
 		obj.isvalid(b);
