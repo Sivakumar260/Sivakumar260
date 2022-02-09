@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Arrays{
 	
-	static void SingledimArray() {
+	static void SingleDimArray() {
 		int n ;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the length of an array ");
